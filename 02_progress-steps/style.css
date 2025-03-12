@@ -2,7 +2,7 @@
 
 :root {
   --line-border-fill: #3498db;
-  --line-border-empty: #383838;
+  --line-border-empty: #e0e0e0;
 
 }
 
@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: #f1f1f1;
+  background-color: #f6f7fb;
   font-family: 'Muli', sans-serif;
   display: flex;
   align-items: center;
@@ -35,7 +35,7 @@ body {
 }
 
 .progress-container::before {
-  content: '';
+  content: "";
   background-color: var(--line-border-empty);
   position: absolute;
   top: 50%;
@@ -59,8 +59,8 @@ body {
 }
 
 .circle {
-  background-color: #f1f1f1;
-  color:#e2e2e2;
+  background-color: #fff;
+  color: #999;
   border-radius: 50%;
   height: 30px;
   width: 30px;
@@ -71,14 +71,13 @@ body {
   transition: 0.4s ease;
 }
 
-.circle.active {
+.circle .active {
   border-color: var(--line-border-fill);
 }
 
 .btn {
   background-color: var(--line-border-fill);
-  color: #fff;
-  border: 0;
+  color: white;
   border-radius: 6px;
   cursor: pointer;
   font-family: inherit;
