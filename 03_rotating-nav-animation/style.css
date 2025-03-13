@@ -45,7 +45,6 @@ body {
 }
 
 .circle button {
-  cursor: pointer;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -54,6 +53,7 @@ body {
   border: 0;
   font-size: 26px;
   color: #fff;
+  cursor: pointer;
 }
 
 .circle button:focus {
@@ -83,7 +83,7 @@ nav {
 }
 
 nav ul {
-  list-style-type: none;
+  list-style: none;
   padding-left: 30px;
 }
 
@@ -105,7 +105,7 @@ nav ul li + li {
   transform: translateX(-150%);
 }
 
-nav ul li + li + li {
+nav ul li + li  + li{
   margin-left: 30px;
   transform: translateX(-200%);
 }
@@ -121,6 +121,7 @@ nav a:hover {
   font-weight: bold;
 }
 
+
 .content img {
   max-width: 100%;
 }
@@ -134,7 +135,7 @@ nav a:hover {
   margin: 0;
 }
 
-.content small {
+.circle small {
   color: #555;
   font-style: italic;
 }
@@ -143,3 +144,4 @@ nav a:hover {
   color: #333;
   line-height: 1.5;
 }
+
