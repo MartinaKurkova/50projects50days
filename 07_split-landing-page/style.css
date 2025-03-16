@@ -22,8 +22,8 @@ body {
 }
 
 h1 {
-  font-size: 4rem;
-  color: #fff;
+  font-size: 4em;
+  color: white;
   position: absolute;
   left: 50%;
   top: 20%;
@@ -34,19 +34,19 @@ h1 {
 .btn {
   position: absolute;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   left: 50%;
   top: 40%;
   transform: translateX(-50%);
   text-decoration: none;
-  color: #fff;
-  border: #fff solid 0.2rem;
+  color: white;
+  border: 0.2rem solid white;
   font-size: 1rem;
-  font-weight: bold;
-  text-transform: uppercase;
   width: 15rem;
   padding: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .split.left .btn:hover {
@@ -75,38 +75,35 @@ h1 {
 
 .split.left {
   left: 0;
-  background: url('ps.jpg');
+  background: url("ps.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.split.right {
+  right: 0;
+  background: url("xbox.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .split.left::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 100%;
   background-color: var(--left-bg-color);
 }
 
-.split.right {
-  right: 0;
-  background: url('xbox.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .split.right::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 100%;
   background-color: var(--right-bg-color);
 }
 
-.split.right,
-.split.left,
-.split.right::before,
-.split.left::before {
+.split.right, .split.left, .split.right::before, .split.left::before {
   transition: all var(--speed) ease-in-out;
 }
 
@@ -126,7 +123,7 @@ h1 {
   width: var(--other-width);
 }
 
-@media (max-width: 800px) {
+@media(max-width: 800px) {
   h1 {
     font-size: 2rem;
     top: 30%;
