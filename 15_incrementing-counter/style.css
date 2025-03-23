@@ -20,8 +20,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
   margin: 30px 50px;
+  text-align: center;
 }
 
 .counter {
@@ -29,7 +29,7 @@ body {
   margin-top: 10px;
 }
 
-@media (max-width: 580px) {
+@media(max-width: 580px) {
   body {
     flex-direction: column;
   }
