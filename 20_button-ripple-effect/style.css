@@ -19,7 +19,7 @@ body {
 button {
   background-color: purple;
   color: #fff;
-  border: 1px purple solid;
+  border: 1px solid purple;
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -28,6 +28,7 @@ button {
   margin: 10px 0;
   position: relative;
 }
+
 
 button:focus {
   outline: none;
@@ -44,7 +45,7 @@ button .circle {
 }
 
 @keyframes scale {
-  to {
+  to { 
     transform: translate(-50%, -50%) scale(3);
     opacity: 0;
   }
