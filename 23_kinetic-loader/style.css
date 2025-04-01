@@ -20,7 +20,7 @@ body {
 
 .kinetic::after,
 .kinetic::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -37,13 +37,11 @@ body {
 }
 
 @keyframes rotateA {
-  0%,
-  25% {
-    transform: rotate(0deg);
+  0% {
+    transform: rotate(0);
   }
 
-  50%,
-  75% {
+  50%, 75% {
     transform: rotate(180deg);
   }
 
@@ -52,14 +50,16 @@ body {
   }
 }
 
+.kinetic::before {
+  transform: rotate(90deg);
+}
+
 @keyframes rotateB {
-  0%,
-  25% {
+  0%, 25% {
     transform: rotate(90deg);
   }
 
-  50%,
-  75% {
+  50%, 75% {
     transform: rotate(270deg);
   }
 
