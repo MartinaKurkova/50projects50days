@@ -24,7 +24,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  transition: transform 0.5s ease-in-out;
+  transition: transform .5s ease-in-out;
 }
 
 .left-slide > div {
@@ -34,7 +34,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: #fff;
+  color: white;
 }
 
 .left-slide h1 {
@@ -49,7 +49,7 @@ body {
   top: 0;
   left: 35%;
   width: 65%;
-  transition: transform 0.5s ease-in-out;
+  transition: transform .5s ease-in-out;
 }
 
 .right-slide > div {
@@ -61,8 +61,8 @@ body {
 }
 
 button {
-  background-color: #fff;
-  border: none;
+  background-color: white;
+  border: white;
   color: #aaa;
   cursor: pointer;
   font-size: 16px;
@@ -74,7 +74,7 @@ button:hover {
 }
 
 button:focus {
-  outline: none;
+  outline: white;
 }
 
 .slider-container .action-buttons button {
@@ -86,12 +86,10 @@ button:focus {
 
 .slider-container .action-buttons .down-button {
   transform: translateX(-100%);
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
+  border-radius: 5px 0 0 5px;
 }
 
 .slider-container .action-buttons .up-button {
   transform: translateY(-100%);
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
+  border-radius: 0 5px 5px 0;
 }
