@@ -18,8 +18,8 @@ body {
 
 .magic {
   background-color: #f9ca24;
-  color: #fff;
-  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-family: "Poppins", sans-serif;
   border: 0;
   border-radius: 3px;
   font-size: 16px;
@@ -42,13 +42,13 @@ body {
 }
 
 .boxes {
-  display: flex;
+  display: flex;  
   flex-wrap: wrap;
   justify-content: space-around;
+  position: relative;
   height: 500px;
   width: 500px;
-  position: relative;
-  transition: 0.4s ease;
+  transition: .4s ease;
 }
 
 .boxes.big {
@@ -61,17 +61,17 @@ body {
 }
 
 .box {
-  background-image: url('https://media.giphy.com/media/EZqwsBSPlvSda/giphy.gif');
+  background-image: url("https://media.giphy.com/media/EZqwsBSPlvSda/giphy.gif");
   background-repeat: no-repeat;
   background-size: 500px 500px;
   position: relative;
   height: 125px;
   width: 125px;
-  transition: 0.4s ease;
+  transition: .4s ease;
 }
 
 .box::after {
-  content: '';
+  content: "";
   background-color: #f6e58d;
   position: absolute;
   top: 8px;
@@ -82,11 +82,11 @@ body {
 }
 
 .box::before {
-  content: '';
+  content: "";
   background-color: #f9ca24;
   position: absolute;
   bottom: -15px;
-  left: 8px;
+  left: 8%;
   height: 15px;
   width: 100%;
   transform: skewX(45deg);
