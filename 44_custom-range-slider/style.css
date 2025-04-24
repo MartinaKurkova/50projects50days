@@ -25,30 +25,30 @@ h2 {
   position: relative;
 }
 
-input[type='range'] {
+input[type="range"] {
   width: 300px;
   margin: 18px 0;
-  -webkit-appearance: none;
+ appearance: none;
 }
 
-input[type='range']:focus {
+input[type="range"]:focus {
   outline: none;
 }
 
-input[type='range'] + label {
-  background-color: #fff;
+input[type="range"] + label {
+  background-color: white;
   position: absolute;
   top: -25px;
   left: 110px;
   width: 80px;
   padding: 5px 0;
   text-align: center;
-  border-radius: 4px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  border-radius: 4Px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
 }
 
-/* Chrome & Safari */
-input[type='range']::-webkit-slider-runnable-track {
+/* Chrome & safari */
+input[type="range"]::-webkit-slider-runnable-track {
   background: purple;
   border-radius: 4px;
   width: 100%;
@@ -56,11 +56,11 @@ input[type='range']::-webkit-slider-runnable-track {
   cursor: pointer;
 }
 
-input[type='range']::-webkit-slider-thumb {
+input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
   height: 24px;
   width: 24px;
-  background: #fff;
+  background: white;
   border-radius: 50%;
   border: 1px solid purple;
   margin-top: -7px;
@@ -68,7 +68,7 @@ input[type='range']::-webkit-slider-thumb {
 }
 
 /* Firefox */
-input[type='range']::-moz-range-track {
+input[type="range"]::-moz-range-track {
   background: purple;
   border-radius: 4px;
   width: 100%;
@@ -76,11 +76,11 @@ input[type='range']::-moz-range-track {
   cursor: pointer;
 }
 
-input[type='range']::-moz-range-thumb {
-  -webkit-appearance: none;
+input[type="range"]::-moz-range-thumb {
+  appearance: none;
   height: 24px;
   width: 24px;
-  background: #fff;
+  background: white;
   border-radius: 50%;
   border: 1px solid purple;
   margin-top: -7px;
@@ -88,7 +88,7 @@ input[type='range']::-moz-range-thumb {
 }
 
 /* IE */
-input[type='range']::-ms-track {
+input[type="range"]::-ms-track {
   background: purple;
   border-radius: 4px;
   width: 100%;
@@ -96,11 +96,11 @@ input[type='range']::-ms-track {
   cursor: pointer;
 }
 
-input[type='range']::-ms-thumb {
-  -webkit-appearance: none;
+input[type="range"]::-ms-thumb {
+  appearance: none;
   height: 24px;
   width: 24px;
-  background: #fff;
+  background: white;
   border-radius: 50%;
   border: 1px solid purple;
   margin-top: -7px;
