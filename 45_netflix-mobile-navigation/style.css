@@ -18,7 +18,7 @@ body {
 }
 
 .logo {
-  width: 200px;
+  width: 150px;
 }
 
 .nav-btn {
@@ -40,7 +40,7 @@ body {
   left: 0;
   height: 100vh;
   transform: translateX(-100%);
-  transition: transform 0.3s ease-in-out;
+  transition: transform .3s ease-in-out;
 }
 
 .nav.visible {
@@ -48,11 +48,11 @@ body {
 }
 
 .nav-black {
-  background-color: rgb(34, 31, 31);
+  background-color: rgb(34,31,31);
   width: 60%;
   max-width: 480px;
   min-width: 320px;
-  transition-delay: 0.4s;
+  transition-delay: .4s;
 }
 
 .nav-black.visible {
@@ -70,7 +70,7 @@ body {
 }
 
 .nav-white {
-  background-color: #fff;
+  background-color: white;
   width: 95%;
   padding: 40px;
   position: relative;
@@ -91,20 +91,20 @@ body {
 .list {
   list-style-type: none;
   padding: 0;
-}
+  }
 
-.list li {
-  margin: 20px 0;
-}
+  .list li {
+    margin: 20px 0;
+  }
 
-.list li a {
-  color: rgb(34, 31, 31);
-  font-size: 14px;
-  text-decoration: none;
-  text-transform: uppercase;
-}
+  .list li a {
+    color: rgb(34,31,31);
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
 
-.list ul {
-  list-style-type: none;
-  padding-left: 20px;
-}
+  .list ul {
+    list-style-type: none;
+    padding-left: 20px;
+  }
