@@ -18,8 +18,8 @@ body {
 }
 
 .testimonial-container {
-  background-color: #476ce4;
-  color: #fff;
+  background-color: #476CE4;
+  color: white;
   border-radius: 15px;
   margin: 20px auto;
   padding: 50px 80px;
@@ -28,7 +28,7 @@ body {
 }
 
 .fa-quote {
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255,255,255,0.3);
   font-size: 28px;
   position: absolute;
   top: 70px;
@@ -42,8 +42,8 @@ body {
   right: 40px;
 }
 
-.testimonial {
-  line-height: 28px;
+.testimonial{
+  line-height: unset;
   text-align: justify;
 }
 
@@ -74,7 +74,7 @@ body {
 }
 
 .progress-bar {
-  background-color: #fff;
+  background-color: white;
   height: 4px;
   width: 100%;
   animation: grow 10s linear infinite;
@@ -87,12 +87,13 @@ body {
   }
 }
 
-@media (max-width: 768px) {
-  .testimonial-container {
-    padding: 20px 30px;
-  }
-
+@media(max-width: 768px) {
   .fa-quote {
     display: none;
   }
+
+  .testimonial-container {
+    padding: 20px 30px;
+  }
 }
+

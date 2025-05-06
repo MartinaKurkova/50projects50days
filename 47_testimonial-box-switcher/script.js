@@ -1,8 +1,8 @@
-const testimonialsContainer = document.querySelector('.testimonials-container')
-const testimonial = document.querySelector('.testimonial')
-const userImage = document.querySelector('.user-image')
-const username = document.querySelector('.username')
-const role = document.querySelector('.role')
+const testimonialsContainer = document.querySelector(".testimonial-container");
+const testimonial = document.querySelector(".testimonial");
+const userImage= document.querySelector(".user-image");
+const username = document.querySelector(".username");
+const role = document.querySelector(".role");
 
 const testimonials = [
   {
@@ -58,7 +58,8 @@ const testimonials = [
   },
 ]
 
-let idx = 1
+
+let idx = 1;
 
 function updateTestimonial() {
   const { name, position, photo, text } = testimonials[idx]
@@ -70,7 +71,7 @@ function updateTestimonial() {
 
   idx++
 
-  if (idx > testimonials.length - 1) {
+  if(idx > testimonials.length - 1) {
     idx = 0
   }
 }
